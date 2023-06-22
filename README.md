@@ -15,3 +15,6 @@ PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 source ~/.bashrc # 当前环境，即使重启机器也会生效
 ```
 
+# 设置中国代理
+
+go env -w GOPROXY=https://proxy.golang.com.cn,https://goproxy.cn,direct
