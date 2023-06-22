@@ -1,5 +1,6 @@
 
 # go centos环境搭建
+```
 下载：https://go.dev/dl/
 go1.20.5.linux-amd64.tar.gz
 解压
@@ -12,4 +13,5 @@ GOROOT=/usr/local/go
 GOPATH=/root/work/go
 PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 source ~/.bashrc # 当前环境，即使重启机器也会生效
+```
 
